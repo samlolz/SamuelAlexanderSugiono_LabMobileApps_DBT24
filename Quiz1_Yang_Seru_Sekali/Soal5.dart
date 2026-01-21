@@ -19,7 +19,7 @@ void main() {
 
   for (int i = 0; i < 3; i++) {
     stdout.write('Input nama student: ');
-    stdin.readLineSync(); // nama tidak disimpan
+    stdin.readLineSync(); 
 
     stdout.write('Input nilai: ');
     int nilai = int.parse(stdin.readLineSync()!);
